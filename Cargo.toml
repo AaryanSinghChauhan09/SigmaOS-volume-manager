@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-volume-manager"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS volume-manager component"
+
+[lib]
+name = "volume_manager"
+path = "src/lib.rs"
