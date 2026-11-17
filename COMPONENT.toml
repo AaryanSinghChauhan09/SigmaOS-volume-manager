@@ -3,12 +3,12 @@ name = "SigmaOS-volume-manager"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "volume-manager component"
+description = "Volume manager component for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
