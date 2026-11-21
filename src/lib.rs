@@ -146,3 +146,6 @@ mod tests {
         assert_eq!(m.event_count(), 1);
     }
 }
+
+/// LVM: physical volumes, volume groups, logical volumes.
+pub mod sigmalvm;
